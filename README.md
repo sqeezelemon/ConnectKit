@@ -121,3 +121,12 @@ listener.start()
 // 4. When finished, stop the client.
 listener.stop()
 ```
+
+***
+
+#### Bugs and enhancements
+If you encounter a bug, please file an issue with the reproduction steps and any other information you consider helpful.
+If you want to suggest a change to the package, please make an issue with your proposal.
+
+#### Contacts
+[**@sqeezelemon** on IFC](https://community.infiniteflight.com/u/sqeezelemon)
