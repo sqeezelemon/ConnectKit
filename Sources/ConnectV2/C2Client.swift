@@ -276,6 +276,7 @@ public final class C2Client {
         
         let data = Data(bytes: buff, count: buffSize)
         send(data)
+        buff.deallocate()
     }
     
     /// Sets `id` to the provided `Int32`.
@@ -302,6 +303,7 @@ public final class C2Client {
         
         let data = Data(bytes: buff, count: buffSize)
         send(data)
+        buff.deallocate()
     }
     
     /// Sets `id` to the provided `Float`.
@@ -328,6 +330,7 @@ public final class C2Client {
         
         let data = Data(bytes: buff, count: buffSize)
         send(data)
+        buff.deallocate()
     }
     
     /// Sets `id` to the provided `String`.
@@ -358,6 +361,7 @@ public final class C2Client {
         
         let data = Data(bytes: buff, count: buffSize)
         send(data)
+        buff.deallocate()
     }
     
     /// Sets `id` to the provided `Double`.
@@ -384,6 +388,7 @@ public final class C2Client {
         
         let data = Data(bytes: buff, count: buffSize)
         send(data)
+        buff.deallocate()
     }
     
     /// Sets `id` to the provided `Int64`.
@@ -410,6 +415,7 @@ public final class C2Client {
         
         let data = Data(bytes: buff, count: buffSize)
         send(data)
+        buff.deallocate()
     }
     
     /// Retrieves the state for the delegate to process.
@@ -430,6 +436,7 @@ public final class C2Client {
         
         let data = Data(bytes: buff, count: buffSize)
         send(data)
+        buff.deallocate()
     }
     
     /// Sends a command.
